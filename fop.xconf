@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+  <renderers>
+    <renderer mime="application/pdf">
+      <filterList>
+        <value>flate</value>
+      </filterList>
+      <fonts>
+        <font embed-url="NotoColorEmoji-Regular.ttf">
+            <font-triplet name="Noto Color Emoji" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="VINERITC.TTF">
+          <font-triplet name="Viner Hand ITC" style="normal" weight="normal"/>
+        </font>
+        <!--<font embed-url="VLADIMIR.TTF">
+          <font-triplet name="Vladimir Script" style="normal" weight="normal"/>
+        </font>-->
+      </fonts>
+      <version>1.7</version>
+    </renderer>
+  </renderers>
+</fop>
