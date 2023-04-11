@@ -19,7 +19,7 @@ public class Main {
 
         // Step 2: Set up output stream.
         // Note: Using BufferedOutputStream for performance reasons (helpful with FileOutputStreams).
-        OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("fop2_8output-1.pdf")));
+        OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("fop2_8output.pdf")));
 
         try {
             // Step 3: Construct fop with desired output format
